@@ -24,6 +24,7 @@ const props = defineProps<Props>();
 
 <style scoped>
 #image_container {
+  width: max(50%, 300px);
   height: auto;
   padding: 0 5vw 5vh 5vw;
 }
